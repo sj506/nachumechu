@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <!-- animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS -->
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
 </head>
 <body class=''>
     <nav class="navbar w-100 navbar-inverse navbar-fixed-top navbar-no-bg shadow-sm p-0" role="navigation">
@@ -33,7 +39,7 @@
         </div>
     </nav>
     <main>
-        <div class='main-content-box d-flex justify-content-center'>
+        <div class='main-content-box d-flex justify-content-center animate__animated animate__fadeIn'>
             <img class='w-100 h-100' src="assets/img/main-img.jpg" alt="" srcset="">
             <p class='main-intro-text color-white text-center'>
                 What is Lorem Ipsum?
@@ -43,12 +49,12 @@
             </p>
         </div>
         <div style='height: 10rem;'></div>
-        <div class='main-img d-flex justify-content-center w-100 h-100'>
-            <img class=' img-1 w-80 h-80' src="assets/img/photo_2022-06-23_22-40-27.jpg" alt="">
+        <div class='main-img d-flex justify-content-center w-100 h-100 animate__animated v-hidden'>
+            <img class='img-1 w-80 h-80' src="assets/img/photo_2022-06-23_22-40-27.jpg" alt="" >
         </div>
         <div style='height: 10rem;'></div>
-        <div class='main-img  d-flex justify-content-center'>
-            <img class='img-1 w-80 h-80' src="assets/img/photo_2022-06-23_22-40-25.jpg" alt="">
+        <div class='main-img d-flex justify-content-center animate__animated v-hidden'>
+            <img class='img-1 w-80 h-80' src="assets/img/photo_2022-06-23_22-40-25.jpg" alt="" >
         </div>
         <!-- <div class='d-flex justify-content-end me-5'>
             <img src="/assets/img/그림2.png" alt="" srcset="">
@@ -66,4 +72,7 @@
     </p>
 </footer>
 </body>
+
 </html>
+
+<script src="assets/js/index.js"></script>

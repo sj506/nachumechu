@@ -9,6 +9,11 @@ body {
     font-weight: 300;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -73,6 +78,9 @@ li {
     flex-direction: column;
     align-items: center;
     background-color: #805a5a;
+}
+.v-hidden {
+    visibility:hidden
 }
 
 
