@@ -60,3 +60,36 @@ li {
 .text-color {
     /* color: rgb(255, 255, 255); */
 }
+
+@media (max-width: 992px) {
+  .main-content-box {
+    height: 100vh;
+  }
+
+  .main-content-box p {
+    padding: 10%;
+  }
+
+  .main-intro-text {
+        position: absolute;
+        top: 15%;
+        font-size: 130%;
+    }
+
+.main-intro-subtext {
+        position: absolute;
+        top: 22%;
+        font-size: 100%;
+    }
+
+    .nav-menu {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+    }
+    .nav-menu img {
+        width: 50%;
+    }
+    .home-about {
+        margin-right: 5%;
+    }
+}
