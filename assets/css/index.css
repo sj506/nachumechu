@@ -22,9 +22,20 @@ li {
     width: 30%;
 }
 
+.w-80 {
+    width: 80%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
 .navbar {
     position: fixed;
+    top:0;
+    left:0;
     background-color: rgba(0, 0, 0, 0.192);
+    z-index: 2;
 }
 
 .main-intro-text {
@@ -41,6 +52,11 @@ li {
     font-size: 150%;
 }
 
-.color-white {
-    color: rgb(255, 255, 255);
+.main-content-box {
+    position: relative;
+    z-index: 1;
+}
+
+.text-color {
+    /* color: rgb(255, 255, 255); */
 }
